@@ -99,6 +99,7 @@
 		53C4CEA7296E062500E58F8B /* ProjectBank */ = {
 			isa = PBXGroup;
 			children = (
+				53C4CEDC296E0DCB00E58F8B /* Feature */,
 				53C4CEDB296E078600E58F8B /* Source */,
 				53C4CEB9296E063500E58F8B /* Info.plist */,
 				53C4CEB1296E062500E58F8B /* ProjectBank.xcdatamodeld */,
@@ -133,6 +134,86 @@
 				53C4CEB6296E063500E58F8B /* LaunchScreen.storyboard */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		53C4CEDC296E0DCB00E58F8B /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				53C4CEE3296E0E7700E58F8B /* Cartao */,
+				53C4CEE2296E0E4E00E58F8B /* Recibo */,
+				53C4CEE1296E0E3700E58F8B /* Pagamento */,
+				53C4CEE0296E0E2200E58F8B /* Contatos */,
+				53C4CEDF296E0E1800E58F8B /* Home */,
+				53C4CEDE296E0E0B00E58F8B /* Login */,
+				53C4CEDD296E0DF500E58F8B /* Inicio */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		53C4CEDD296E0DF500E58F8B /* Inicio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Inicio;
+			sourceTree = "<group>";
+		};
+		53C4CEDE296E0E0B00E58F8B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		53C4CEDF296E0E1800E58F8B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		53C4CEE0296E0E2200E58F8B /* Contatos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Contatos;
+			sourceTree = "<group>";
+		};
+		53C4CEE1296E0E3700E58F8B /* Pagamento */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pagamento;
+			sourceTree = "<group>";
+		};
+		53C4CEE2296E0E4E00E58F8B /* Recibo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Recibo;
+			sourceTree = "<group>";
+		};
+		53C4CEE3296E0E7700E58F8B /* Cartao */ = {
+			isa = PBXGroup;
+			children = (
+				53C4CEE5296E0E9300E58F8B /* Formulário */,
+				53C4CEE4296E0E7F00E58F8B /* Cadastre  */,
+			);
+			path = Cartao;
+			sourceTree = "<group>";
+		};
+		53C4CEE4296E0E7F00E58F8B /* Cadastre  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Cadastre ";
+			sourceTree = "<group>";
+		};
+		53C4CEE5296E0E9300E58F8B /* Formulário */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Formulário";
+			path = "Formulário";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
